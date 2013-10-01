@@ -54,7 +54,7 @@ int main (){
 		printf("soma = %e, ultimaSoma = %e, i = %d\n", soma, ultimaSoma, dois_n);
 		printf("dif = %e\n", (soma-ultimaSoma));		
 		dois_n += 1000;
-	}while(fabs(soma-ultimaSoma) > pow(10,-12));
+	}while(fabs(soma-ultimaSoma) > pow(10,-5));
 
 	printf("Resposta: a0 = %e \n", (soma/(2*M_PI)));
 	return 0;
